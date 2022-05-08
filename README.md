@@ -1,2 +1,2 @@
-# Sela College Projects
+# Projects
  
