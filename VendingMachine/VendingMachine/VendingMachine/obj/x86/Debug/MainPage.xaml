@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="VendingMachine.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VendingMachine"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image x:ConnectionId='2' x:Name="Espresso" Source="/Assets/Espresso.jpg" Height="100" Width="100" Margin="528,383,872,517" />
+        <TextBlock x:ConnectionId='3' x:Name="Espresso_ToString" Height="50" Width="120" Margin="539,373,841,577"/>
+        <Image x:ConnectionId='4' x:Name="HotChocolate" Source="/Assets/HotChocolate.jpg" Height="100" Width="100" Margin="515,548,885,352" />
+        <TextBlock x:ConnectionId='5' x:Name="HotChocolate_ToString" Height="50" Width="120" Margin="518,522,882,428"/>
+        <Image x:ConnectionId='6' x:Name="Latte" Source="/Assets/Latte.jpg" Height="100" Width="100" Margin="768,547,632,353"/>
+        <TextBlock x:ConnectionId='7' x:Name="Latte_ToString" Height="50" Width="120" Margin="787,522,593,428"/>
+        <Image x:ConnectionId='8' x:Name="Tea" Source="/Assets/Tea.jpeg" Height="100" Width="100" Margin="768,382,632,518"/>
+        <TextBlock x:ConnectionId='9' x:Name="Tea_ToString" Height="50" Width="120" Margin="792,375,588,575"/>
+        <Image x:ConnectionId='10' x:Name="HotVanilla" Source="/Assets/HotVanilla.jpg" Height="100" Width="100" Margin="971,382,429,518"/>
+        <TextBlock x:ConnectionId='11' x:Name="HotVanilla_ToString" Height="50" Width="120" Margin="976,374,404,576"/>
+        <Image x:ConnectionId='12' x:Name="IrishCoffee" Source="/Assets/IrishCoffee.jpg" Height="100" Width="100" Margin="1171,382,229,518"/>
+        <TextBlock x:ConnectionId='13' x:Name="IrishCoffee_ToString" Height="50" Width="120" Margin="1189,361,191,589" Text=""/>
+        <TextBlock x:ConnectionId='14' x:Name="TBlock" HorizontalAlignment="Left" Margin="768,51,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="300" Width="321"/>
+    </Grid>
+</Page>
+

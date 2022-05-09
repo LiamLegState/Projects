@@ -1,0 +1,1 @@
+C:\Users\liamc\OneDrive\Desktop\Sela\VendingMachine\VendingMachine\VendingMachine\VendingMachine.csproj;x86
